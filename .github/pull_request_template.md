@@ -13,3 +13,4 @@
 ## Screenshots or Video
 
 <!-- Captura de pantalla de la consola -->
+ <!-- git rm --chache nombrefila-->
