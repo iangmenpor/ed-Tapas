@@ -50,9 +50,9 @@ public class MainTapa {
                     break;
 
                 case 5:
-                    Tapa tapaActualizada = new Tapa("1", "Nombre nuevo", "Establecimiento nuevo", "0", "0", "0", "0", "ingredientes update");
                     System.out.print("-> Introduce el código de la Tapa que deseas Actualizar : ");
                     answer2 = sc.nextLine();
+                    Tapa tapaActualizada = new Tapa(answer2, "Nombre nuevo", "Establecimiento nuevo", "0", "0", "0", "0", "ingredientes nuevo");
                     actualizarTapa.execute(tapaActualizada);
                     break;
 

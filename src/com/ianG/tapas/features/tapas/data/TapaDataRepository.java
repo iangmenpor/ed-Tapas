@@ -72,7 +72,7 @@ public class TapaDataRepository implements TapaRepository {
     public void update(Tapa tapa) {
         for (int i=0; i<tapaList.size(); i++){
             Tapa tapa1 = tapaList.get(i);
-            if (tapa1.getCode().equals(tapa.getCode())){
+            if (tapa.getCode().equals(tapa1.getCode())){
                 tapaList.set(i,tapa); //Actualizar tapa
                 System.out.println("-> Tapa Actualizada: " + tapa.getCode());
                 System.out.println("-> Datos Actualizados : "+ tapa.toString());
