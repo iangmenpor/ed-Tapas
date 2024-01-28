@@ -41,7 +41,6 @@ public class TapaDataRepository implements TapaRepository {
                 return;
             }
         }
-        // Print a message if the Tapa with the given code was not found
         System.out.println("-> Error 404: Tapa no encontrada :(");
     }
 
